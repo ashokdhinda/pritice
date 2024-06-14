@@ -38,3 +38,9 @@
 // let numm= palindrom("ashok")
 // console.log(numm);
 
+// reverse array 
+// function number(num) {
+//     return num ==+ num.toString().split("").reverse().join("")
+// }
+// let newNumber = number(346)
+// console.log(newNumber);
