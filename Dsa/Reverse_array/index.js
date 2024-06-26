@@ -4,7 +4,6 @@
 // let string = reversestring("Ashok kumar dhinda")
 // console.log(string);
 
-
 // // function number(string) {
 //     let bag = ""
 //     for (let i = string.length- 1; i >= 0; i--){
@@ -52,7 +51,6 @@
 //     obj.display = display;
 //     obj.color = camera;
 
-
 //     obj.dial = function () {
 //         return "tring.. tring..."
 //     }
@@ -62,7 +60,6 @@
 //     obj.cameraClick = function () {
 //          return "Camera clicked"
 //     }
-
 
 //     return obj
 // }
@@ -86,7 +83,6 @@
 // console.log(ip2.sendMessage());
 // console.log(ip2.cameraClick());
 // console.log(ip2.connectBluetooth());
-
 
 // function iphone1 (ASIN,color,camera,display){
 //   let iphone1obj={}
@@ -121,16 +117,11 @@
 // console.log(ip1.sendMessage());
 // console.log(ip1.cameraClick());
 
-
-
 // let ip2 = iphone2();
 // console.log(ip2.dial());
 // console.log(ip2.sendMessage());
 // console.log(ip2.cameraClick());
 // console.log(ip2.connectBluetooth());
-
-
-
 
 // function Iphone(ASIN, color, display, camera, bluetooth) {
 
@@ -168,7 +159,6 @@
 // console.log(ip2.cameraClick());
 // console.log(ip2.connectBluetooth());
 
-
 // let num = [1, 2, 3, 5]
 // let max = num[0]
 // for (let i = 0; i < num.length; i++) {
@@ -176,7 +166,6 @@
 //         max=num[i]
 
 //     }
-
 
 // }
 // console.log(max);
@@ -193,34 +182,31 @@
 //     }
 // }
 
-
 // let numarr = [2, 3, 5, 10, 30, 40, 59]
 // numb(numarr)
 
 // function divideby(numArray) {
 //     for (let i = 0; i < numArray.length; i++) {
 //         if (numArray[i]% 5 == 0) {
-      
+
 //           console.log(numArray[i]);
 //         }
 //     }
 // }
 //     let numArray = prompt();
 
-
 // divideby(numArray);
-
 
 // let temp = arr[0]
 // arr[0] = arr[1]
 // arr[1] = temp
 // console.log(arr);
-let arr = [1, 3]
+let arr = [1, 3];
 for (let i = 0; i < arr.length; i++) {
-    let temp = arr[0]
-    arr[0] = arr[i]
-    arr[i] = temp
-    console.log(arr);
+  let temp = arr[0];
+  arr[0] = arr[i];
+  arr[i] = temp;
+  console.log(arr);
 }
 
 // let arr = [1,2,3,4,5,6,7,8,9,10,11,12]
@@ -249,9 +235,6 @@ for (let i = 0; i < arr.length; i++) {
 // }
 // console.log(arr);
 
-
-
-
 // let obj1 = {
 //   name: "pavan",
 // };
@@ -267,7 +250,7 @@ for (let i = 0; i < arr.length; i++) {
 // Object.setPrototypeOf(obj2, obj3);
 
 // console.log(obj1.age);
-   
+
 // class Person{
 //     constructor(name,age){
 //      this.name = name;
@@ -323,7 +306,7 @@ for (let i = 0; i < arr.length; i++) {
 
 // let p1 = new Animal("woo", 4)
 // console.log(p1);
-// console.log(p1.animalSound); // get private 
-// p1.animalSound = "hoo hoo" /// set updete 
+// console.log(p1.animalSound); // get private
+// p1.animalSound = "hoo hoo" /// set updete
 // console.log(p1.animalSound);
 // Animal.greet()
