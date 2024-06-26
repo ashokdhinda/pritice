@@ -1,3 +1,4 @@
+
 // // function palindrome(arr){
 // //   return arr ===+arr.toString().split("").reverse().join("")
 // // }
